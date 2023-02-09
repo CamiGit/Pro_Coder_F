@@ -37,4 +37,4 @@ def list_user(request):
     context = {
         'user' : User_all
     }
-    return render(request, 'Users/user_list.html', context=context)
+    return render(request, 'Users/User_list.html', context=context)
